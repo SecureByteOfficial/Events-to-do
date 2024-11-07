@@ -1,0 +1,76 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+h1 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+/* Event Box Styling */
+.events-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    width: 80%;
+}
+.event-box {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.event-box h2 {
+    margin-top: 0;
+}
+.countdown {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+.learn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #333;
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.learn-more:hover {
+    background-color: #444;
+}
+/* Event Details Styling */
+.event-details {
+    width: 60%;
+    margin-top: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+/* Progress Bar Styling */
+.progress-bar {
+    height: 10px;
+    background-color: #333;
+    border-radius: 4px;
+    margin-top: 10px;
+    position: relative;
+}
+.progress-bar::before {
+    content: "";
+    display: block;
+    height: 100%;
+    background-color: #555;
+    border-radius: 4px;
+    width: 0;
+    transition: width 0.5s ease;
+}
