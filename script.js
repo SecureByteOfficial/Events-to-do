@@ -42,8 +42,8 @@ document.querySelectorAll('.progress-bar').forEach(bar => {
 });
 
 // Example use: Adjust the event date accordingly.
-countdown('countdown4', new Date('2024-12-T00:00:00').getTime());
+countdown('countdown4', new Date('2024-12-01T00:00:00').getTime());
 document.querySelectorAll('.progress-bar').forEach(bar => {
     const progress = bar.getAttribute('data-progress');
-    bar.querySelector('::before').style.width = `${progress}60%`;
+    bar.querySelector('::before').style.width = `${progress}10%`;
 });
