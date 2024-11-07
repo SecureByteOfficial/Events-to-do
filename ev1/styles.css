@@ -1,0 +1,86 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Layout */
+body {
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2em;
+    color: #ffffff;
+}
+
+.timer {
+    font-size: 1.5em;
+    color: #00ff99;
+}
+
+/* Sections */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #ffffff;
+    border-bottom: 1px solid #00ff99;
+    padding-bottom: 5px;
+}
+
+/* Team and Progress Bar */
+.team-member {
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    background-color: #333;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 10px;
+    background-color: #00ff99;
+    transition: width 0.3s ease;
+}
+
+/* Resources and Actions */
+.resources ul, .agenda ul {
+    list-style: none;
+}
+
+.resources ul li a, .agenda ul li {
+    color: #00ff99;
+    text-decoration: none;
+}
+
+.actions .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    color: #fff;
+    background-color: #333;
+    border: 1px solid #00ff99;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.actions .button:hover {
+    background-color: #00ff99;
+    color: #000;
+}
